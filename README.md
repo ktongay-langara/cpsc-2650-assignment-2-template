@@ -1,45 +1,8 @@
-# rest2
+# Assignment 2
 
-> A simple REST application
+## Finish Lab 2 as a pre-requisite to this assignment, then continue with the below steps:
 
-## About
-
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
-
-## Getting Started
-
-Getting up and running is as easy as 1, 2, 3.
-
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
-
-    ```
-    cd path/to/rest2
-    npm install
-    ```
-
-3. Start your app
-
-    ```
-    npm start
-    ```
-
-## Testing
-
-Simply run `npm test` and all your tests in the `test/` directory will be run.
-
-## Scaffolding
-
-Feathers has a powerful command line interface. Here are a few things it can do:
-
-```
-$ npm install -g @feathersjs/cli          # Install Feathers CLI
-
-$ feathers generate service               # Generate a new Service
-$ feathers generate hook                  # Generate a new Hook
-$ feathers help                           # Show all commands
-```
-
-## Help
-
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
+1. Add the required code to public/form_validation.js to immediately add the form data to the table at the bottom of the page.
+2. Add the required code to public/form_validation.js and public/index.html to display a “Delete” button at the end of each row in the table. When the “Delete” button is clicked, the corresponding row should be deleted from the table and you should invoke the correct Feathers service method to delete the document from the MongoDB collection.
+3. Implement CI/CD for the project so that the application will be deployed to Dockerhub.
+4. Stage, commit, and push the changes.
